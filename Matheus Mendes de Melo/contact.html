@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>CV- Matheus Melo</title>
+    <Link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a size href="index.html">  Sobre mim</a>
+            </li>
+            <li>
+                <a href="formalcoes.html"> Formações</a>
+            </li>
+            <li>
+                <a href="contact.html"> Contato</a>
+            </li>
+
+        </ul>
+    </nav>
+   
+<style>
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: #643843;
+        color:#643843
+    }
+    .container {
+        max-width: 300px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #F5EEE6;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    input[type="text"], input[type="email"], textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 8px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+    }
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+</style>
+</head>
+<body>
+
+<!-- Formulário de Contato -->
+<div class="container">
+    <h2>Entre em Contato</h2>
+    <!-- Formulário HTML -->
+    <form action="/enviar" method="post">
+        <!-- Campo para o nome -->
+        <input type="text" name="name" placeholder="Seu nome.." required>
+
+        <!-- Campo para o email -->
+        <input type="email" name="email" placeholder="Seu email.." required>
+
+        <!-- Campo para a mensagem -->
+        <textarea name="message" placeholder="Sua mensagem.." style="height:100px" required></textarea>
+
+        <!-- Botão de enviar -->
+        <input type="submit" value="Enviar">
+    </form>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+body{
+    color: #FDF0D1;
+    background-color: #643843;                                                           /* Estiliza as letras*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}   
+ul{
+    display: flex;
+    justify-content:space-between;      /* Define o local dos elementos*/
+    list-style-type:none;
+    align-items:center;
+    padding: 30px;
+
+
+}
+a {
+    color:#FDF0D1;           /* Retira a linha que fica em baixo do link e troca a cor*/
+    text-decoration: none;
+   border : 1px solid #FDF0D1;
+   border-radius : 2px;
+   font-size: 25px;
+   
+}
+
+.center{
+    text-align: center;        /* classe para centralizar */
+}
+h1{font-size: 50px;
+
+}
+
+
+
